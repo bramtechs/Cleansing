@@ -1,7 +1,6 @@
-
 "Enter your name! (Press SPACEto confirm)\n";
 
-#define MAX_LEN 32
+#define MAX_LEN 32
 
 I64 name[MAX_LEN];
 
@@ -19,4 +18,4 @@ U64 j;
 for (j=0; j<i; j++){
 	"%c", name[j];
 }
-"!"
+"!"
