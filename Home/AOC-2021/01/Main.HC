@@ -1,5 +1,5 @@
 Cd(__DIR__);
-#include "~/AOC-2021/Common.HC"
+#include "~/AOC-2021/Common.HC"
 
 
 U0 part1() {
@@ -20,7 +20,7 @@ U0 part1() {
   
   Free(saved_begin);
   
-  "Part 1: %d\n", answer;
+  "Part 1: %d\n", answer;
 }
 
 U0 part2() {
