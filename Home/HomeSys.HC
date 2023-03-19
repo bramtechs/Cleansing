@@ -1,7 +1,7 @@
 // Place this file in /Home and change
 // anything you want.
 
-#include "~/Theme.HC"
+// #include "~/Theme.HC"
 
 U0 NewDay(U8 *dir) {
   DirMk(dir);

@@ -58,7 +58,7 @@ l2.isRoyalty = 1;
 PrintLion(&l2);
 
 Lion l3;
-StrCpy(l3.name, "Scar");
+StrCpy(l3.name, "Scar");
 l3.isMale = 1;
 l3.age = 30;
 l3.weightInKg = 120;
