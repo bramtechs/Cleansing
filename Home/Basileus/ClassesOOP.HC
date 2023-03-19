@@ -49,7 +49,7 @@ l.isRoyalty = 1;
 PrintLion(&l);
 
 Lion l2;
-StrCpy(l.name, "Nala");
+StrCpy(l2.name, "Nala");
 l2.isMale = 0;
 l2.age = 20;
 l2.weightInKg = 70;
@@ -58,7 +58,7 @@ l2.isRoyalty = 1;
 PrintLion(&l2);
 
 Lion l3;
-StrCpy(l.name, "Scar");
+StrCpy(l3.name, "Scar");
 l3.isMale = 1;
 l3.age = 30;
 l3.weightInKg = 120;
