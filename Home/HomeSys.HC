@@ -1,7 +1,7 @@
-//Place this file in /Home and change
-//anything you want.
+// Place this file in /Home and change
+// anything you want.
 
-#include "~/Theme.HC"
+#include "~/Theme.HC"
 
 U0 NewDay(U8 *dir) {
   DirMk(dir);
@@ -11,8 +11,9 @@ U0 NewDay(U8 *dir) {
   Ed("Main.HC");
 }
 
+//Run each time a user a spawned
 U0 UserStartUp()
-{//Run each time a user a spawned
+{
   DocTermNew;
   Type("::/Doc/Start.DD");
   LBts(&Fs->display_flags,DISPLAYf_SHOW);
@@ -21,8 +22,9 @@ U0 UserStartUp()
   Dir;
 }
 
+//Run each time a srv task is spawned.
 U0 SrvStartUp()
-{//Run each time a srv task is spawned.
+{
   DocTermNew;
   LBts(&Fs->display_flags,DISPLAYf_SHOW);
   WinToTop;
@@ -39,6 +41,7 @@ U0 StartUpTasks()
   Silent;	//no output to scrn
   ACInit("/*;!*/Bible.TXT*");
   Silent(OFF); //no output to scrn
+  //XTalk(user1, "RunFile(\"~/Basileus/Classes.HC\");\n");
 }
 
 StartUpTasks;

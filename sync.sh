@@ -14,7 +14,6 @@ SUBCOMMAND=$1
 shift
 
 IMAGE_PATH=TEMPLE.img
-shift
 
 set -xe
 . ./config.sh
